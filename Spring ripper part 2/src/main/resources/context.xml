@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+     Спринг об аннотациях не знает. Обработкой аннотацией занимаються BeanPostProcessor-ы.
+     Есть 3 пути для включия обработки аннотаций:
+
+     1. <context:annotation-config/> - добавляет xml в котором прописаны все дефолтные BeanPostProcessor-ы.
+     2. <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+     3. <context:component-scan base-package="by.babanin"/>
+     -->
+    <context:annotation-config/>
+    <context:component-scan base-package="by.babanin"/>
+    <bean class="by.babanin.quoters.TerminatorQuoter" id="terminatorQuoter">
+        <property name="message" value="I'll be back!"/>
+    </bean>
+
+    <bean class="by.babanin.beanPostProcessor.InjectRandomInitAnnotationBeanPostProcessor"/>
+    <bean class="by.babanin.beanPostProcessor.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="by.babanin.applicationListener.PostProxyInvokerContextListener"/>
+    <bean class="by.babanin.beanPostProcessor.DepricationHandlerBeanFactoryPostProcessor"/>
+</beans>
