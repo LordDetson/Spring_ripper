@@ -23,21 +23,17 @@ public class InitMathodRegistryBeanFactoryPostProcessor implements BeanFactoryPo
             String beanClassName = beanDefinition.getBeanClassName();
             if (beanClassName == null)
                 beanClassName = SpringPickingUtils.resolveClassNameFromJavaConfig(beanDefinition);
-            try {
-                Class<?> beanClass = Class.forName(beanClassName);
-                Class<?>[] interfacesForClass = ClassUtils.getAllInterfacesForClass(beanClass);
-                Arrays.stream(interfacesForClass).forEach(interfac -> {
-                    Method[] methods = interfac.getMethods();
-                    Arrays.stream(methods).forEach(method -> {
-                        boolean isAnnotationPostConstruct = method.isAnnotationPresent(PostConstruct.class);
-                        if (isAnnotationPostConstruct) {
-                            beanDefinition.setInitMethodName(method.getName());
-                        }
-                    });
+            Class<?> beanClass = ClassUtils.resolveClassName(beanClassName, ClassLoader.getSystemClassLoader());
+            Class<?>[] interfacesForClass = ClassUtils.getAllInterfacesForClass(beanClass);
+            Arrays.stream(interfacesForClass).forEach(ifc -> {
+                Method[] methods = ifc.getMethods();
+                Arrays.stream(methods).forEach(method -> {
+                    boolean isAnnotationPostConstruct = method.isAnnotationPresent(PostConstruct.class);
+                    if (isAnnotationPostConstruct) {
+                        beanDefinition.setInitMethodName(method.getName());
+                    }
                 });
-            } catch (ClassNotFoundException e) {
-                throw new RuntimeException(e);
-            }
+            });
         });
     }
 }
