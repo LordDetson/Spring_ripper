@@ -1,6 +1,5 @@
 package by.babanin.puzzler1;
 
-import lombok.SneakyThrows;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
@@ -29,7 +28,8 @@ public class InitMathodRegistryBeanFactoryPostProcessor implements BeanFactoryPo
                 Method[] methods = ifc.getMethods();
                 Arrays.stream(methods).forEach(method -> {
                     boolean isAnnotationPostConstruct = method.isAnnotationPresent(PostConstruct.class);
-                    if (isAnnotationPostConstruct) {
+                    boolean isNotDefault = !method.isDefault();
+                    if (isAnnotationPostConstruct && isNotDefault) {
                         beanDefinition.setInitMethodName(method.getName());
                     }
                 });

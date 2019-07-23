@@ -14,6 +14,11 @@ Rollback произойдет на все методы, хотя можно бы
  */
 @JokerConfTransactional
 public class JokerConfService {
+    /*
+    Евгений Борисов — Spring – Глубоко и не очень
+    JPoint 2017
+    С версии 4.3 @Autowired работает также, как и @SelfAutowired
+     */
     @SelfAutowired
     private JokerConfService proxy;
 
