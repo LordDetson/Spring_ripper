@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdddb097-151b-4469-80ec-7684f12a5572" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler1/InitMathodRegistryBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler1/Iron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler1/IronConfigImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler1/IronImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler1/RunnerPuzzler1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler1/SpringPickingUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler1/Water.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler2/BaruchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler2/BaruchQualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler2/BaruchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler2/JekaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler2/JekaQualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler2/JekaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler2/RunnerPuzzler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/RunnerPuzzler3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/actor/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/actor/Chuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/actor/Jim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/actor/Julia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/actor/Katy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/actor/Stallone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/actor/Tobey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/genre/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/genre/AnyGenre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/genre/Comedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler3/genre/Melodram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler4/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler4/RunnerPuzzler4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringPazzler2/src/main/java/by/babanin/puzzler4/SomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDeep/src/main/java/by/babanin/example1/infra/ActionAnnotationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDeep/src/main/java/by/babanin/example1/infra/BeanDefinitionAppenderBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDeep/src/main/java/by/babanin/example1/infra/EnableActionAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,10 +21,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler4/SetClassNameForSpringJavaConfigBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="238">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +66,8 @@
         <option value="$PROJECT_DIR$/src/main/java/by/babanin/puzzler2/AuditAnnotationHandlerBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/SelfAutowired.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/SelfAutowiredAnnotationHandlerBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/JokerConfService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/babanin/puzzler4/SetClassNameForSpringJavaConfigBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/JokerConfService.java" />
       </list>
     </option>
   </component>
@@ -112,6 +89,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -153,6 +131,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="babanin" type="462c0819:PsiDirectoryNode" />
+              <item name="puzzler1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringPuzzlers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringPuzzlers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="babanin" type="462c0819:PsiDirectoryNode" />
               <item name="puzzler2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,11 +151,19 @@
               <item name="babanin" type="462c0819:PsiDirectoryNode" />
               <item name="puzzler3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringPuzzlers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringPuzzlers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="babanin" type="462c0819:PsiDirectoryNode" />
+              <item name="puzzler4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,16 +238,19 @@
       <updated>1563441679480</updated>
       <workItem from="1563441684230" duration="10148000" />
       <workItem from="1563479123890" duration="66000" />
+      <workItem from="1563542382990" duration="180000" />
+      <workItem from="1563546739934" duration="803000" />
+      <workItem from="1563807464993" duration="702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10214000" />
+    <option name="totallyTimeSpent" value="11899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -430,38 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/SelfAutowiredAnnotationHandlerBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/JokerConfService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler4/SetClassNameForSpringJavaConfigBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/SelfAutowired.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -476,6 +442,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/JokerConfService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler3/SelfAutowiredAnnotationHandlerBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/babanin/puzzler4/SetClassNameForSpringJavaConfigBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
